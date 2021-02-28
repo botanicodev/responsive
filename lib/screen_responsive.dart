@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-class ResponsiveScreen extends StatelessWidget {
+class ScreenResponsive extends StatelessWidget {
   final phone;
   final tablet;
   final desktop;
   final smart;
 
-  const ResponsiveScreen({this.phone, this.tablet, this.desktop, this.smart});
+  const ScreenResponsive({this.phone, this.tablet, this.desktop, this.smart});
 
   @override
   Widget build(BuildContext context) {
